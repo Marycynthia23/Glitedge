@@ -1,0 +1,131 @@
+.FormContainer{
+  width: 100%;
+  background: #001439;
+  color: #3695F1;
+  padding-bottom: 50px;
+  font-family: 'Inter', sans-serif;
+
+}
+.FormHeading{
+  color: #3695F1;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+font-weight: bold;
+font-size: 35px;
+color: #3695F1; 
+margin: 0;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+.Form{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 95%;
+  margin: auto;
+}
+form{
+  width: 45%;
+
+}
+  .colTwo {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]{
+    width: 100%;
+    background-color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 20px;
+  }
+  .lname {
+    width: 10%;
+  }
+  .fname {
+    width: 10%;
+  }
+  input[type="submit"],
+  .btn {
+    background-color: #3695F1;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+font-size: 15px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3695F1;
+  }
+  textarea{
+    width: 99%;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+
+  }
+
+  label{
+    font-weight: 600;
+font-size: 15px;
+  }
+  .FormImg {
+    width: 40%;
+  }
+  .FormImg img {
+    width: 450px;
+    height: 400px;
+  }
+  @media screen and (max-width: 789px){
+    .Form{
+      display: flex;
+      align-items: center;
+      flex-direction: column-reverse;
+      margin: auto;
+    }
+    form{
+      width: 70%;
+    
+    }
+    .FormImg {
+      width: 70%;
+    }
+    .FormImg img{
+      width: 100%;
+    }
+  
+    .lname {
+      width: 8%;
+    }
+    .fname {
+      width: 8%;
+    }
+  
+  }
+  @media screen and (max-width: 500px){
+    .FormImg img{
+      width: 100%;
+    }
+    .FormHeading{
+      font-size: 25px;
+    }
+    .colTwo{
+      display: block;
+    }
+    .lname {
+      width: 100%;
+    }
+    .fname {
+      width: 100%;
+    }
+  }

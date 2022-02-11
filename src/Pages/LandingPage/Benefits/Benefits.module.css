@@ -1,0 +1,78 @@
+.BenefitsContainer{
+    width: 100%;
+    margin: auto;
+    background: #F2F6FF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Inter', sans-serif;
+}
+.BenefitsContainer h2{
+    margin: auto;
+    font-size: 35px;
+    color: #001439;
+    text-align: center;
+}
+.BenefitsList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+
+}
+.Left{
+    width: 45%;
+}
+.LeftList{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.LeftIcons{
+    width: 70px;
+    height: 71px;
+    margin-right: 20px;
+}
+.LeftText h4{
+    margin-bottom: 1px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #001439;
+}
+.LeftText p{
+    margin-top: 1px;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #001439;
+}
+.Right{
+    width: 45%;
+}
+@media  screen and (max-width: 789px){
+    .BenefitsList{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Left{
+        width: 90%;
+    }
+    .Right{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 500px){
+    .BenefitsContainer h2{
+        font-size: 27px;
+    }
+    .LeftText h4{
+        font-size: 18px;
+
+    }
+}

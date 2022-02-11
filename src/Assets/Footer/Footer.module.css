@@ -1,0 +1,68 @@
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #001439;
+    color: #D9DBE1;
+    padding: 50px 50px;
+    flex-wrap: wrap;
+}
+.Footer img{
+    width: 200px;
+    color: #D9DBE1;
+}
+.Footer p{
+font-family: Inter;
+font-weight: normal;
+font-size: 14px;
+/* line-height: 24px; */
+color: #D9DBE1;
+}
+.MediaIcons span{
+background: #192b4d;
+/* opacity: 0.1; */
+width: 80px;
+height: 81px;
+border-radius: 50%;
+margin-right: 20px;
+color: #D9DBE1;
+padding: 8px;
+}
+.Footer li{
+    color: #D9DBE1;
+    list-style-type: none;
+    line-height: 26px;
+    font-size: 16px;
+}
+.Footer h6{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 15px auto;
+}
+.EmailOutline{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #001439;
+    /* opacity: 0.1; */
+    width: 250px;
+    color: #D9DBE1;
+
+}
+input{
+    border: none;
+    border-collapse: collapse;
+    color: #D9DBE1;
+    background: #FFFFFF;
+    width: 150px;
+
+    /* opacity: 0.1; */
+
+}
+.EmailOutline .fas{
+color: #fff;
+font-size: 50px;
+}
+@media screen and (max-width: 789px){
+
+}
